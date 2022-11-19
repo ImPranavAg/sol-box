@@ -1,7 +1,7 @@
 pragma solidity ^0.5.0;
 
-contract DStorage {
-  string public name = 'DStorage';
+contract Solbox {
+  string public name = 'Solbox';
   uint public fileCount = 0;
   mapping(uint => File) public files;
 
